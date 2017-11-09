@@ -49,4 +49,8 @@ public class ventana extends JFrame
        panel.setBackground(Color.pink);//Color de fondo de JPanel
         
     }
+
+    public void SetTitle(String mi_primera_interfaz_JavaSwing) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

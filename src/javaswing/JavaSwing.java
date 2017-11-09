@@ -20,7 +20,7 @@ public class JavaSwing {
     public static void main(String[] args) {
         // TODO code application logic here
         //PASO 9 - LLAMADA A LA CLASE JFRAME
-        ventana  ventana = new Window();//Creo un objeto tipo 
+        ventana  ventana = new ventana();//Creo un objeto tipo 
         ventana.setVisible(true);
         ventana.setBounds(0, 0, 600, 600);
         //La siguiente inst. le pone titulo a la ventana 
