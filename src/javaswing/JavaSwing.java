@@ -22,7 +22,7 @@ public class JavaSwing {
         //PASO 9 - LLAMADA A LA CLASE JFRAME
         ventana  ventana = new ventana();//Creo un objeto tipo 
         ventana.setVisible(true);
-        ventana.setBounds(0, 0, 600, 600);
+        ventana.setBounds(0, 0, 600, 800);
         //La siguiente inst. le pone titulo a la ventana 
         ventana.SetTitle("Mi primera interfaz JavaSwing");
         //La siguiente sentencia es para finalizar el proyecto el cerrea la ventana
