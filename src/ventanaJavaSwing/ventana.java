@@ -35,5 +35,11 @@ public class ventana extends JFrame
         verificacion = new JCheckBox();
         presionar = new JRadioButton();
         
-        
+         //PASO 6 - AGREGAR LOS ELEMENTOS AL JFRAME
+       this.add(panel);//Recomendable el JPanel
+       panel.add(label);
+       panel.add(text);
+       panel.add(boton);
+       panel.add(verificacion);
+       panel.add(presionar);
 }
