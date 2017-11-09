@@ -42,4 +42,11 @@ public class ventana extends JFrame
        panel.add(boton);
        panel.add(verificacion);
        panel.add(presionar);
+       
+       //PASO 7 - PROPIEDADES DE LOS OBJETOS
+       label.setText("Nombre");
+       boton.setText("Enviar");
+       panel.setBackground(Color.pink);//Color de fondo de JPanel
+        
+    }
 }
